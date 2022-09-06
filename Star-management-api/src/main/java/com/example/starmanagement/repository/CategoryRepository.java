@@ -1,0 +1,8 @@
+package com.example.starmanagement.repository;
+
+import com.example.starmanagement.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+
+}
