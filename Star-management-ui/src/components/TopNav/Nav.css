@@ -1,0 +1,105 @@
+.ListeContainer__titre{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.ListeContainer__titre__context{
+    font-family: Roboto;
+    font-size: clamp(10px,1vw,25px);
+    width: 70%;
+}
+.context{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.context::before{
+    top: 100%;
+    left: -2.5%;
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 10%;
+    background: black;
+}
+.bascule{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.ListeContainer__titre__context,
+.ListeContainer__titre__barName,
+.ListeContainer__titre__item{
+    font-weight: bold;
+    position: relative;
+}
+.ListeContainer__titre__barName{
+    margin-left: 8%;
+}
+.ListeContainer__titre__item{
+    margin-left: 12%;
+}
+
+.ListeContainer__liste{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 0.6%;
+    align-self: stretch;
+    height: 100%;
+}
+.navButton{
+    position: relative;
+    flex-basis: 40%;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    font-size: clamp(8px, 2vw, 15px);
+    border: none;
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    background: var(--logoutBg);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.navButton:hover{
+    transform: scale(1.1);
+}
+.menu{
+    cursor: pointer;
+}
+.dropContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.dropMenu{
+    display: none;
+}
+.dropMenuActive{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.element{
+    margin-top: 12%;
+    z-index: 1000;
+}
+.element:hover{
+    transform: scale(1.05);
+}

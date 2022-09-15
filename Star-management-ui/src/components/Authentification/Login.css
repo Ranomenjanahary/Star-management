@@ -1,0 +1,74 @@
+.LoginContainer__TitleBar{
+    font-weight: bold;
+    font-size: clamp(20px, 3vw, 40px);
+    font-family: BADABB;
+    display: flex;
+    height: 10%;
+    align-items: center;
+}
+.LoginContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.LoginContainer__Forms__password,
+.LoginContainer__Forms__Button{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    width: 50%;
+    height: 10%;
+    font-size: var(--label);
+    transition: transform 0.5s ease;
+}
+/*  */
+.LoginContainer__Forms__button{
+    position: relative;
+    align-self: stretch;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 4%;
+}
+
+.label{
+    position: absolute;
+    z-index: 2;
+    left: 3%;
+    color: black;
+}
+
+/*  */
+.LoginContainer__Forms__Button{
+    cursor: pointer;
+}
+.LoginContainer__Forms__Button:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+.LoginContainer__description{
+    font-weight: bold;
+}
+.LoginContainer__Forms{
+    position: relative;
+    width: 100%;
+    flex-grow: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.chooseSeparated{
+    align-self: center;
+}
+body{
+   /* background-image: url("logoStar.jpg");*/
+}
+/*  */

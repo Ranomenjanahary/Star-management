@@ -1,0 +1,33 @@
+:root{
+  --logoutBg: #F8A407FF;
+  --fontSize: clamp(8px, 1.8vw, 15px);
+  --navBackground: #c5c2c2;
+  --first-color: rgb(34, 34, 34);
+  --second-color: rgb(255, 255, 245);
+  --third-color: rgb(219, 143, 0);
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --label: clamp(10px, 2vw, 20px);
+  --danger: red;
+}
+/*  */
+
+
+@font-face{
+  font-family: BADABB;
+  src: url("../BADABB.TTF");
+}
+/*  */
+body {
+  width: 100%;
+  margin: 0;
+  font-family: BADABB -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,46 @@
+.ListeContainer__liste__table{
+    border-collapse: collapse;
+    width: 99%;
+    border-radius: 10px;
+}
+.ResultContainer__header{
+    background: #9ca0a8;
+}
+.ResultContainer__body{
+    border: 1px solid #969494;
+}
+.ResultContainer__body__item{
+    border: 1px solid #8c8a8a;
+    width: 2%;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+th{
+    background: rgba(215, 183, 183, 0.5);
+}
+.deleteButton{
+    position: relative;
+    flex-basis: 40%;
+    padding: 7px;
+    margin: 0;
+    height: 30px;
+    width: 50%;
+    font-size: clamp(8px, 2vw, 15px);
+    border: none;
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    background: var(--danger);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.deleteButton:hover{
+    transform: scale(1.1);
+}
+body{
+    background-color: aliceblue;
+}
