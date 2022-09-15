@@ -1,2 +1,2 @@
-# Star-management api
-# Star-management ui
+ Star-management api
+ Star-management ui
